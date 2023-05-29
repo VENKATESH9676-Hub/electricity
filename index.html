@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="" onsubmit="date()">
+      <h2>Electricity Bill</h2>
+      <table>
+        <tr>
+          <td>Enter RR Number</td>
+          <td>
+            <input type="text" placeholder="Enter your RR Number" id="rrnumb" />
+          </td>
+        </tr>
+        <tr>
+          <td>Consumer Name</td>
+          <td>
+            <input type="text" placeholder=" Enter Consumer Name" id="name" />
+          </td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>
+            <textarea name="" id="addr" cols="20" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Bill Reading Date</td>
+          <td><input type="date" id="BRD" /></td>
+        </tr>
+        <tr>
+          <td>Enter old Meter Reading</td>
+          <td><input type="number" id="OMR" /></td>
+        </tr>
+        <tr>
+          <td>Enter Current Meter Reading</td>
+          <td><input type="number" id="CMR" /></td>
+        </tr>
+        <tr>
+          <td>Enter Arrears if any</td>
+          <td><input type="number" id="arre" /></td>
+        </tr>
+        <tr>
+          <td><button type="reset">Clear</button></td>
+          <td><button type="submit">Submit</button></td>
+        </tr>
+      </table>
+      <p id="print"></p>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

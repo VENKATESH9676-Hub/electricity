@@ -1,0 +1,19 @@
+h2 {
+  background-color: chocolate;
+  color: darkslateblue;
+  letter-spacing: 3px;
+  margin-left: 35%;
+  margin-right: 25%;
+  padding-left: 150px;
+  font-style: oblique;
+}
+
+table {
+  background-color: hotpink;
+  border: 2px solid black;
+  margin-left: 40%;
+}
+td {
+  border: 2px solid white;
+  padding: 5px;
+}
